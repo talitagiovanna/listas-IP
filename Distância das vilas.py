@@ -1,0 +1,8 @@
+X = int(input())
+Z = int(input())
+DH = ((X-34)**2+(Z-220)**2)**(1/2)
+DK = ((X-0)**2+(Z-0)**2)**(1/2)
+DS = ((X-140)**2+(Z-456)**2)**(1/2)
+print(f'Distancia para Hogsmeade: {DH:.2f}')
+print(f'Distancia para Kakariko: {DK:.2f}')
+print(f'Distancia para Solitude: {DS:.2f}')
